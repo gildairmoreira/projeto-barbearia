@@ -95,7 +95,8 @@ footer {
 }
 
 form {
-	margin: 40px 0;
+	margin: 65px 25%;
+
 }
 
 form label, form legend {
@@ -130,14 +131,15 @@ form label, form legend {
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: auto;
+	margin-bottom: 30px;
 }
 
-thead {
+thead td{
 	background: #555555;
 	color: white;
 	font-weight: bold;
@@ -145,7 +147,7 @@ thead {
 
 td, th {
 	border: 1px solid #000000;
-	padding: 8px 15px;
+	padding: 10px 20px;
 }
 
 
@@ -181,6 +183,7 @@ td, th {
 }
 
 .utensilios {
+	border-radius: 50%;
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
